@@ -11,7 +11,7 @@ An AI-powered nutrition tracking and health analysis web application that helps 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-336791?logo=postgresql&logoColor=white)](https://supabase.com/)
 [![JWT](https://img.shields.io/badge/Auth-JWT-black?logo=jsonwebtokens)](https://jwt.io/)
 [![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/)
-[![Railway](https://img.shields.io/badge/Backend-Railway-0B0D0E?logo=railway&logoColor=white)](https://railway.app/)
+[![Zoho Catalyst](https://img.shields.io/badge/Backend-Zoho%20Catalyst-E42527?logo=zoho&logoColor=white)](https://catalyst.zoho.com/)
 [![Gemini API](https://img.shields.io/badge/AI-Gemini%20API-4285F4?logo=googlegemini&logoColor=white)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)
 
@@ -89,7 +89,7 @@ The platform is built with a strong focus on **security** (JWT-based authenticat
 | Layer | Platform |
 |---|---|
 | Frontend | [Vercel](https://vercel.com/) |
-| Backend | [Railway](https://railway.app/) |
+| Backend | [Zoho Catalyst](https://catalyst.zoho.com/) |
 | Database | [Supabase](https://supabase.com/) |
 
 ---
@@ -279,15 +279,7 @@ erDiagram
 ## Project Structure
 
 ```
-NutriScan/
-├── frontend/
-│   ├── assets/
-│   ├── index.html
-│   ├── dashboard.html
-│   ├── css/
-│   └── js/
-│
-└── backend/
+nutriScan-backend/
     └── src/main/java/com/nutriscan/
         ├── controller/      # REST controllers (Auth, Meal, Dashboard, etc.)
         ├── service/         # Business logic layer
@@ -420,16 +412,3 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## License
-
-This project is licensed under the **MIT License** — see the `LICENSE` file for details.
-
----
-
-<div align="center">
-
-Made with ❤️
-
-</div>
