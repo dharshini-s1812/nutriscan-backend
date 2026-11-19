@@ -1,0 +1,15 @@
+{
+  "command": "java -jar FoodAnalyzer-0.0.1-SNAPSHOT.jar",
+  "build_path": "FoodAnalyzer-0.0.1-SNAPSHOT.jar",
+  "stack": "java21",
+  "platform": "javase",
+  "memory": 1024,
+  "env_variables": {
+    "DB_URL": "jdbc:postgresql://HOST:5432/postgres?sslmode=require",
+    "DB_USERNAME": "change-me",
+    "DB_PASSWORD": "change-me",
+    "JWT_SECRET": "change-me-random-string-32-chars-or-more",
+    "GEMINI_API_KEY": "change-me",
+    "USDA_API_KEY": "change-me"
+  }
+}
